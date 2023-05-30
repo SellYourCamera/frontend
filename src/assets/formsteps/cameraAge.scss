@@ -1,0 +1,39 @@
+.container {
+  
+
+    .row-1 {
+        .col-1 {
+           .age-section{
+            display: flex;
+        align-items: center; 
+            .age-item{
+                flex-direction: row;
+                flex-wrap: wrap;
+                text-align: center;
+                border: 1px solid #d6d5d5;
+                margin: 80px 10px;
+                padding: 0px 15px;
+                width: 30%;
+                background-color: #eaecec53;
+                border-radius: 8px;
+                cursor: pointer;
+                &:hover{
+                    text-align: center;
+                    border: 1px solid #1876d3;
+                    margin: 80px 10px;
+                    padding: 0px 15px;
+                    width: 30%;
+                    background-color: #1876d3;
+                    border-radius: 8px;
+                    color: #f1f1f1;
+                }
+            }
+           }
+
+        }
+        .col-2{
+            
+        }
+
+    }
+}

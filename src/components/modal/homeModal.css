@@ -1,0 +1,97 @@
+@media only screen and (max-width:575.98px) {
+
+    .home-modal-box {
+        width: 200px;
+        height: 100px;
+        background-color: #ddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .home-modal-box .home-modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        vertical-align: center;
+        z-index: 1;
+    }
+
+    .home-modal-box .home-modal-overlay .home-modal-pop {
+        margin: 20px;
+        width: 90%;
+        border: 1px solid #ebe9e9;
+        border-radius: 5px;
+        background-color: #fff;
+        transform: translate(0%, -0%);
+        transition: transform 0.3s ease-out;
+        max-height: fit-content;
+        height: 90%;
+        min-height: fit-content;
+        overflow-y: scroll;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* screen greater than 576 */
+
+@media only screen and (min-width: 576px) {
+
+    .home-modal-box {
+        width: 200px;
+        height: 100px;
+        background-color: #ddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .home-modal-box .home-modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        vertical-align: center;
+        z-index: 1;
+    }
+
+    .home-modal-box .home-modal-overlay .home-modal-pop {
+        margin: 20px;
+        width: 500px;
+        border: 1px solid #ebe9e9;
+        border-radius: 5px;
+        background-color: #fff;
+        transform: translate(0%, -0%);
+        transition: transform 0.3s ease-out;
+        max-height: fit-content;
+        height: fit-content;
+        min-height: fit-content;
+        overflow-y: scroll;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+/* @media only screen and (max-width: 575.98px)
+  @media (min-width: 576px) and (max-width: 767.98px)
+  @media (min-width: 768px) and (max-width: 999px) 
+  @media only screen and (min-width: 1000px) */

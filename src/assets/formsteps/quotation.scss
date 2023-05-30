@@ -1,0 +1,72 @@
+.container {
+
+  
+      
+    .row-1 {
+        .col-1 {
+            padding: 0px;
+            .quotation-section {
+                display: flex;
+                flex-direction: row;
+                height: 310px;
+                max-height: 310px;
+                padding: 16px;
+               
+
+                .img-section {
+                    width: 40%;
+                    height: 280px;
+                    text-align: center;
+                    padding: 16px;
+
+                    img {
+                        height: 174px;
+                        margin-top: 20%;
+                    }
+                }
+
+                .content-section {
+                    width: 60%;
+                    margin-left: 30px;
+                    margin: auto;
+
+                    h1 {
+                        color: red;
+                        font-size: 36px;
+                        margin: 8px;
+                    }
+                    h2 {
+                        font-size: 26px;
+                        margin: 8px;
+                    }
+                    p {
+                        
+                        font-size: 16px;
+                        margin: 10px;
+                    }
+                    .report-section{
+                        font-size: 14px;
+                        margin: 45px 8px;
+                        width: fit-content;
+                        border-bottom: 1px dotted #b9b7b7 ;
+                        cursor: pointer;
+
+                    }
+                    .feature-section{
+                       padding: 8px;
+                        img{
+                            width: 100%;
+                            max-width:496px;
+                            max-height: 66px;
+
+                        }
+                        
+                    }
+
+
+                }
+            }
+
+        }
+    }
+}

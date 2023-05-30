@@ -1,0 +1,43 @@
+.container {
+    box-sizing: border-box;
+    display: flex;
+
+    .header {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        margin-bottom:-15px ;
+       
+    }
+
+    .row {
+        width: 100%;
+        border: 2px solid #fafafa;
+        border-radius: 17px;
+        justify-content: center;
+        box-shadow: 1px 0px 10px 1px #fafafa;
+        margin-left: 15px;
+        padding:64px 0px ;
+
+        .col-1 {
+            width: 35%;
+            .content{
+                img{
+                    width: 300px;
+                    height: auto;
+                }
+            }
+        }
+
+        .col-2 {
+            width: 70%;
+            float: left;
+            margin-left: 5%;
+
+           .imgsection{
+            text-align: center;
+          
+           }
+        }
+    }
+}
